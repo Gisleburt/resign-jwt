@@ -7,3 +7,5 @@ description = "Allows you to quickly and safely resign a jwt"
 
 [dependencies]
 structopt="0.2"
+frank_jwt = "3.1.1"
+jwt = "0.4.0"

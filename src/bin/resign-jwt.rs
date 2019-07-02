@@ -1,5 +1,5 @@
 use structopt::StructOpt;
-
+use resign_jwt::Algorithm;
 
 #[derive(Debug, StructOpt)]
 struct Opt {
@@ -8,7 +8,7 @@ struct Opt {
     #[structopt(short, long)]
     key: String,
     #[structopt(short, long)]
-    algorithm: String,
+    algorithm: Algorithm,
 }
 
 
