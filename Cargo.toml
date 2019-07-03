@@ -4,6 +4,10 @@ version = "0.1.0"
 authors = ["Daniel Mason <daniel@danielmason.com>"]
 edition = "2018"
 description = "Allows you to quickly and safely resign a jwt"
+repository = "https://github.com/Gisleburt/resign-jwt"
+readme = "README.md"
+categories = ["authentication", "command-line-utilities", "development-tools"]
+license = "MIT"
 
 [dependencies]
 structopt="0.2"
