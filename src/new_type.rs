@@ -6,6 +6,10 @@ impl<T> NewType<T> {
     pub fn new(v: T) -> NewType<T> {
         NewType(v)
     }
+
+    pub fn unbox(self) -> T {
+        self.0
+    }
 }
 
 impl<T> Deref for NewType<T> {
